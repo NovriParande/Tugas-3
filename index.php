@@ -5,6 +5,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+	
+	<div id="video-background">
+  <video autoplay muted loop>
+    <source src="video.mp4" type="video/mp4">
+  </video>
+</div>
+
+	
 	<h1>Pencarian Film</h1>
 	<form method="get" action="index.php">
 		<input type="text" name="search" placeholder="Cari judul film...">
